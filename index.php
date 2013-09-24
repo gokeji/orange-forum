@@ -6,9 +6,10 @@ require FORUM_ROOT . 'common.php';
 <!DOCTYPE html>
 <html>
   	<head>
+        <title>Orange Forum</title>
     	<meta charset="UTF-8">
     	<link rel="stylesheet" type="text/css" href="main.css" />
-    	<link rel="shortcut icon" type="image/x-icon" href="images/forum_icon.gif">
+    	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     	<script type="text/javascript" src="simple.js"></script>
   	</head>
   	<body>
