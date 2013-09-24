@@ -1,0 +1,125 @@
+Array
+(
+    [id] => 508623962
+    [name] => Kaijian Gao
+    [first_name] => Kaijian
+    [last_name] => Gao
+    [link] => http://www.facebook.com/profile.php?id=508623962
+    [hometown] => Array
+        (
+            [id] => 110339342327129
+            [name] => Hangzhou, China
+        )
+
+    [location] => Array
+        (
+            [id] => 108284282528586
+            [name] => Providence, Rhode Island
+        )
+
+    [bio] => I'm one of a kind, are you?
+    [quotes] => Every person who once touched my heart deserves a piece of it.
+    [work] => Array
+        (
+            [0] => Array
+                (
+                    [employer] => Array
+                        (
+                            [id] => 106138616088505
+                            [name] => Taurus Education
+                        )
+
+                    [start_date] => 0000-00
+                    [end_date] => 0000-00
+                )
+
+        )
+
+    [education] => Array
+        (
+            [0] => Array
+                (
+                    [school] => Array
+                        (
+                            [id] => 106373672732057
+                            [name] => Shanghai High School Intl. Division
+                        )
+
+                    [year] => Array
+                        (
+                            [id] => 136328419721520
+                            [name] => 2009
+                        )
+
+                    [type] => High School
+                )
+
+            [1] => Array
+                (
+                    [school] => Array
+                        (
+                            [id] => 108642579167279
+                            [name] => Hong Wen Primary School
+                        )
+
+                    [type] => High School
+                )
+
+            [2] => Array
+                (
+                    [school] => Array
+                        (
+                            [id] => 104073636296325
+                            [name] => Brown University
+                        )
+
+                    [year] => Array
+                        (
+                            [id] => 138879996141011
+                            [name] => 2013
+                        )
+
+                    [type] => College
+                )
+
+            [3] => Array
+                (
+                    [school] => Array
+                        (
+                            [id] => 102096906498157
+                            [name] => SHSID
+                        )
+
+                    [type] => College
+                )
+
+        )
+
+    [gender] => male
+    [timezone] => -5
+    [locale] => en_US
+    [languages] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 103088979730830
+                    [name] => Mandarin Chinese
+                )
+
+            [1] => Array
+                (
+                    [id] => 113301478683221
+                    [name] => American English
+                )
+
+            [2] => Array
+                (
+                    [id] => 103117093061460
+                    [name] => Shanghainese
+                )
+
+        )
+
+    [verified] => 1
+    [updated_time] => 2012-03-01T01:55:15+0000
+)

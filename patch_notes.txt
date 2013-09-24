@@ -1,0 +1,11 @@
+To prevent XSRF, I have included a unique token in the php $_SESSION variable, which is declared in common.php (starting from line 49), and added the token as a hidden field in the submit form for both post and topic submission (in new_topic_post.php line 66). Then, before the submit fields are accepted and the actions carried out (in post.php lines 7-10 and 62-67), the token in the submit form is compared with the token contained in the session and made sure to be the same, to confirm that the user is authenticating this submit. Also, post.php makes sure that the submit button is valid.
+
+My forum used to allow persistent XSS, wherein you can input html code as a message or a user name for the posts, and the html code will be saved in the database and ran every time the post loads. To prevent XSS, I escaped the inputs for messages, subject titles, and usernames (along with every other user input, including the TopicId, ForumId, Page, and other variables that are viewable in the url) with htmlspecialchars(). The changes are in post.php, lines 13, 16 and line 28.
+
+I used PDO's bindParam() with every parameter that would be going into a MySql query, so I believe there isn't a huge security issue with Sql injection in my forum.
+
+Since I do not have file upload, use the eval function or carry out any shell code on my forum, directory traversal and command execution should not be security flaws.
+
+
+
+

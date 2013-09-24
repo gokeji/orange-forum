@@ -1,0 +1,207 @@
+html{
+	width: 100%;
+	height: 100%;
+	
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+#bg{
+	background-image: url("images/orange_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 0px;
+	position: fixed;
+	z-index: -100;
+	width: 100%;
+	height: 100%;
+}
+
+
+#header{
+	width: 100%;
+	height: 300px;
+	text-align: center;
+}
+
+#header img{
+	height: 280px;	
+	margin: auto;
+}
+
+
+#stats div{
+	float: left;	
+	padding: 5px;
+	font-size: 2em;
+	color: #752F09;
+}
+
+#stats #topics{	
+	margin-right: 30px;
+}
+
+#stats #declaration{
+	font-weight: bolder;
+}
+
+#breadcrumb div{
+	float: left;
+	padding-bottom: 5px;
+	font-size: 1em;
+	color: #752F09;
+}
+
+#breadcrumb #declaration{
+	margin-right: 10px;
+	clear: left;
+}
+
+.clearer{
+	width: 100%;
+	float: left;
+	clear: both;
+	height: 10px;
+}
+/*===============MAIN TABLE================*/
+.content{
+	width: 80%;
+	margin: auto;
+}
+
+table, td, th{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	-webkit-border-horizontal-spacing: 0px;
+	-webkit-border-vertical-spacing: 0px;
+}
+
+td{
+	padding: 5px;
+	display: table-cell;
+}
+
+.category{
+	background-color: #FF4D4B;
+}
+
+.category td{
+	width: 100%;
+}
+
+tr.forum{
+	background-color: #FFAC5D;
+	cursor: pointer;
+}
+
+tr.forum:hover{
+	background-color: #EE9646;
+}
+
+.forum .name .subject{
+	max-width: 300px;
+}
+
+.forum .topics, .forum .posts{
+	width: 70px;
+}
+
+tr.no_select{
+	cursor: default;
+}
+
+tr.no_select:hover{
+	background-color: #FFAC5D;
+}
+
+.forum th{
+	font-weight: bold;
+}
+
+#main{
+	margin-bottom: 10px;
+}
+
+div.poster{
+	min-width: 90px;
+	margin: 10px;
+}
+
+td.post_content{
+	width: 80%;
+	max-width: 500px;
+}
+
+div.post_content{
+	margin: 10px 10px;
+	word-wrap: break-word;
+}
+
+#new_topic{
+	width: 130px;
+	background-color: #EE9646;
+	font-size: 1em;
+	margin-bottom: 10px;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.button{
+	margin-bottom: 10px;
+}
+
+p, textarea{
+	float: left;
+	clear: both;
+}
+
+div.float{
+	float: left;
+	width: 100%;
+}
+
+.prof_pic{
+	margin-top: 10px;
+}
+
+.logout{
+	background-color: #3B5998;
+	width: 70px;
+	text-align: center;
+	border-color: black;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.logout a{
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	color: white;
+	font-weight: bolder; 
+}
+
+div.bottom{
+	padding-bottom: 40px;
+}
+
+a.disabled{
+	color: gray;
+	cursor: default;
+}
+
+div.navigation{
+	margin-bottom: 10px;
+}
+
+.center{
+	text-align: center;
+}
