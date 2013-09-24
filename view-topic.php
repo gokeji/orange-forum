@@ -78,7 +78,10 @@ $at_end = FALSE;
 							<tr class="forum no_select">
 								<td><div class="poster">
 									<div class="author"><?php echo $topics[$k][1];?></div>
-									<img src="https://graph.facebook.com/<?php echo $topics[$k][2]; ?>/picture">
+									<img src=
+										<?php if (!is_null($topics[$k][2])): ?>"https://graph.facebook.com/<?php echo $topics[$k][2]; ?>/picture" 
+										<?php else: ?>"images/unkown.jpg" <?php endif ?>
+										>
 									<div class="post_time"><?php echo $topics[$k][3];?></div>
 								</div></td>
 								<td class="post_content"><div class="post_content"><?php echo $topics[$k][4];?></div></td>
