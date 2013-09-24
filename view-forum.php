@@ -8,17 +8,7 @@ $at_end = FALSE;
 
 <!DOCTYPE html>
 <html>
-  	<head>
-    	<meta charset="UTF-8">
-    	<link rel="stylesheet" type="text/css" href="main.css" />
-    	<script type="text/javascript" src="simple.js"/>
-		</script>
-  	</head>
-  	<body>
-  		<div id="bg"></div>
-  		<div id="header">
-			 <img src="images/orange-forum.png" alt="the-orange" />
-  		</div>
+  	<?php require FORUM_ROOT . 'head.php'; ?>
   		<div id="breadcrumb" class="content">
   			<div id="declaration">
 	  			Current Location: 
