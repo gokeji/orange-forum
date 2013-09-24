@@ -5,10 +5,13 @@ if (!defined('FORUM_ROOT'))
 // Enable error reporting
 error_reporting(E_ALL);
 
+// Load db info from db.php
+require FORUM_ROOT . 'db.php';
+
 // Try to connect to the database
 try
 {
-	$dbh = new PDO('mysql:host=' . 'localhost' . ';dbname=' . 'FORUM', 'FORUM_admin', 'migtruelymig');
+	$dbh = new PDO('mysql:host=' . $DB["host"] . ';dbname=' . $DB["name"], $DB["username"], $DB["password"]);
 	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e)
