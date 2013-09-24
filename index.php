@@ -8,6 +8,7 @@ require FORUM_ROOT . 'common.php';
   	<head>
     	<meta charset="UTF-8">
     	<link rel="stylesheet" type="text/css" href="main.css" />
+    	<link rel="shortcut icon" type="image/x-icon" href="images/forum_icon.gif">
     	<script type="text/javascript" src="simple.js"></script>
   	</head>
   	<body>
