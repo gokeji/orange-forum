@@ -18,7 +18,7 @@ catch (PDOException $e)
 }
 
 // Load the Facebook library
-require FORUM_ROOT . 'lib/facebook-php-sdk/src/facebook.php';
+require FORUM_ROOT . 'lib/facebook-sdk/src/facebook.php';
 
 $facebook = new Facebook(array(
   'appId'  => '276849219022102',
