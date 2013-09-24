@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 // Try to connect to the database
 try
 {
-	$dbh = new PDO('mysql:host=' . 'localhost' . ';dbname=' . 'forum', 'ec2-user', 'migtruelymig');
+	$dbh = new PDO('mysql:host=' . 'localhost' . ';dbname=' . 'FORUM', 'FORUM_admin', 'migtruelymig');
 	$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e)
